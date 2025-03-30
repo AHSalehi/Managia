@@ -8,8 +8,10 @@ class App(customtkinter.CTk):
 
         self.title("Managia")
         self.geometry("800x600")
+        self.iconbitmap(r'images/icons8-free-download-manager-144.png')
         self.grid_columnconfigure((0,1), weight=1)
         self.grid_rowconfigure((0, 1), weight=1)
+        
         
 
 app = App()
